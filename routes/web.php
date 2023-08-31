@@ -49,3 +49,5 @@ Route::get('/inicio/contacto', 'App\Http\Controllers\InicioController@contacto')
 Route::get('/inicio/registro', 'App\Http\Controllers\InicioController@reg');
 
 Route::get('/inicio/productos', 'App\Http\Controllers\InicioController@productos');
+
+Route::get('/inicio/inventario', 'App\Http\Controllers\InicioController@inventario');

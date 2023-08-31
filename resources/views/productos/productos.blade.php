@@ -50,7 +50,7 @@
 				<img src="https://plus.unsplash.com/premium_photo-1692392181661-96c4b34759db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="producto">
 			</figure>
 			<div class="info-producto">
-				<h2>Collar dorado para mascota</h2>
+				<h2>Collar dorado para mascotadf gdfgdfgdfgd fgdfgfdg dfgdfgd fgdgdgdfg dgfdfgdfg</h2>
 				<p class="precio">$25000</p>
 				<button>Añadir al carrito</button>
 			</div>
