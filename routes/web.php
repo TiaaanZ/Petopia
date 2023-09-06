@@ -48,6 +48,10 @@ Route::get('/inicio/contacto', 'App\Http\Controllers\InicioController@contacto')
 
 Route::get('/inicio/registro', 'App\Http\Controllers\InicioController@reg');
 
-Route::get('/inicio/productos', 'App\Http\Controllers\InicioController@productos');
+Route::get('/inicio/productos', 'App\Http\Controllers\ProductoController@index')->name('productos.productos');
 
 Route::get('/inicio/inventario', 'App\Http\Controllers\InicioController@inventario');
+
+Route::get('/inicio/productos/create', 'App\Http\Controllers\ProductoController@create');
+
+Route::post('/inicio/productos/store', 'App\Http\Controllers\ProductoController@store')->name('producto.store');

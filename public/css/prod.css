@@ -142,8 +142,12 @@
 	.container-items{
 		margin: 200px 100px;
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 100px; 
+		grid-template-columns: 
+		repeat(
+			auto-fit,
+			minmax(350px, 1fr)
+		);
+		gap: 32px; 
 	}
 
 	.container-items h2{
@@ -159,7 +163,7 @@
 	}
 
 	.item:hover{
-		transform: scale(1.2);
+		transform: scale(1.1);
 		position: relative;
 
 	}
@@ -174,7 +178,7 @@
 		height: 300px;
 		object-fit: cover;
 		border-radius: 10px 10px 0 0;
-		transition: all .9s;
+		transition: all .1s;
 	}
 
 	.item figure{
@@ -184,7 +188,6 @@
 	}
 
 	.item:hover img{
-		transform: scale(1.05);
 		position: relative;
 
 	}
@@ -221,12 +224,14 @@
 		height: 100px;
 		object-fit: cover;
 		border-radius: 10px 10px 0 0;
-		transition: all .9s;
+		transition: all .1s;
+		cursor: pointer;
 	}
 
 	.item:hover button{
-		transform: scale(1.1);
+		transform: scale(1.02);
 		position: relative;
 
 	}
+
 

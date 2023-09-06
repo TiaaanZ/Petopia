@@ -15,9 +15,6 @@ class InicioController extends Controller
     public function reg(){
         return view('inicio.reg');
     }
-    public function productos(){
-        return view('productos.productos');
-    }
 
     public function inventario(){
         return view('inventario.inventario');

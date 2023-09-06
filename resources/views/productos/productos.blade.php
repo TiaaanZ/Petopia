@@ -25,76 +25,21 @@
 
 
 	<div class="container-items">
+		@foreach ($datos as $item)
+			
+		
 		<div class="item">
 			<figure>
-				<img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="producto">
+				<img src="{{$item->cover_img}}" alt="producto">
 			</figure>
 			<div class="info-producto">
-				<h2>,Juguete para perro</h2>
-				<p class="precio">$15000</p>
+				<h2>{{$item->nombre}}</h2>
+				<p class="precio">{{$item->precio}}</p>
 				<button>Añadir al carrito</button>
 			</div>
 		</div>
-		<div class="item">
-			<figure>
-				<img src="https://m.media-amazon.com/images/I/61RA54u8dlL._AC_UF1000,1000_QL80_.jpg" alt="producto">
-			</figure>
-			<div class="info-producto">
-				<h2>Cama para gato</h2>
-				<p class="precio">$50000</p>
-				<button>Añadir al carrito</button>
-			</div>
-		</div>
-		<div class="item">
-			<figure>
-				<img src="https://plus.unsplash.com/premium_photo-1692392181661-96c4b34759db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="producto">
-			</figure>
-			<div class="info-producto">
-				<h2>Collar dorado para mascotadf gdfgdfgdfgd fgdfgfdg dfgdfgd fgdgdgdfg dgfdfgdfg</h2>
-				<p class="precio">$25000</p>
-				<button>Añadir al carrito</button>
-			</div>
-		</div>
-		<div class="item">
-			<figure>
-				<img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="producto">
-			</figure>
-			<div class="info-producto">
-				<h2>Nose</h2>
-				<p class="precio">80</p>
-				<button>Añadir al carrito</button>
-			</div>
-		</div>
-		<div class="item">
-			<figure>
-				<img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="producto">
-			</figure>
-			<div class="info-producto">
-				<h2>Nose</h2>
-				<p class="precio">80</p>
-				<button>Añadir al carrito</button>
-			</div>
-		</div>
-		<div class="item">
-			<figure>
-				<img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="producto">
-			</figure>
-			<div class="info-producto">
-				<h2>Nose</h2>
-				<p class="precio">80</p>
-				<button>Añadir al carrito</button>
-			</div>
-		</div>
-		<div class="item">
-			<figure>
-				<img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="producto">
-			</figure>
-			<div class="info-producto">
-				<h2>Nose</h2>
-				<p class="precio">80</p>
-				<button>Añadir al carrito</button>
-			</div>
-		</div>
+
+		@endforeach
 
 	</div>
 
