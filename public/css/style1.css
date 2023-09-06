@@ -8,14 +8,14 @@
 
 body{
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #0f132e;
+    background-color: #33678A;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 form{
-    background-color: #19274e;
+    background-color: #78A6C9;
     display: flex;
     flex-direction: column;
     padding: 50px;
