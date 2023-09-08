@@ -19,4 +19,12 @@ class InicioController extends Controller
     public function inventario(){
         return view('inventario.inventario');
     }
+
+    public function adopciones(){
+        return view('adopciones.adopciones');
+    }
+
+
 }
+
+    

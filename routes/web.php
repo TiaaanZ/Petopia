@@ -55,3 +55,5 @@ Route::get('/inicio/inventario', 'App\Http\Controllers\InicioController@inventar
 Route::get('/inicio/productos/create', 'App\Http\Controllers\ProductoController@create');
 
 Route::post('/inicio/productos/store', 'App\Http\Controllers\ProductoController@store')->name('producto.store');
+
+Route::get('/inicio/adopciones', 'App\Http\Controllers\InicioController@adopciones');
